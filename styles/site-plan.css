@@ -6,8 +6,10 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #000000  ;
   --secondary-color: #FFFFFF ;
-  --tertiary-color:#50514F;
   
+  --accent1-color:#50514f;
+  --accent2-color:#60777c;
+
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Sacramento', cursive;
@@ -19,10 +21,10 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
   --paragraph-background-color: #50514F  ;
-  --nav-link-color: #7B4E4E;
+  --nav-link-color: #FFFFFF;
   --nav-background-color: #50514F;
-  --nav-hover-link-color: #A69888;
-  --nav-hover-background-color: #459D15;
+  --nav-hover-link-color: #60777c;
+  --nav-hover-background-color: #60777c;
 }
 
 
