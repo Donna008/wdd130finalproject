@@ -3,5 +3,5 @@ In the first week, I plan the site color pelatte, font style, and the two other 
 one wireframe I plan to do a picture show to use a different layout.
 I plan to create a blog to share personal insight or record ideas.
 
-Jun 9: added a page2 wireframe. it work on blog.
+Jun 10: decided three pages content, blog page layout a stroy use a lot of pictures. picture page practice layout and images style! 
 
