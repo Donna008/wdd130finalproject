@@ -182,3 +182,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+/* wireframe style */
+.home-img img, .blog-img img, .portfolio-img img{
+  width: 300px;
+  height: auto;
+}
