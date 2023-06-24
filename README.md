@@ -5,3 +5,6 @@ I plan to create a blog to share personal insight or record ideas.
 
 Jun 10: decided three pages content, blog page layout a stroy use a lot of pictures. picture page practice layout and images style! 
 
+Jun 17: added three wiremframes.
+Jun 24: added home page, blog, and protfolio HTML.
+
