@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=McLaren&family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
 
 body {
     font-family: 'McLaren';
@@ -21,15 +20,7 @@ header{
  padding: 15px;
     
 }
-/*header .logo{
-margin:auto;
-grid-column: 1/2;
-}*/
-/*#logo_link {
-    display: inline-block;
-    margin-right: auto;
-    margin-left: 0;
-  }*/
+
   #logo_link {
     position: absolute;
     left: 0;
