@@ -1,63 +1,105 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Final Project| Home</title>
-        <link rel="stylesheet" href="styles/home.css">
-    </head>
-    <body>
-        <div id="content">
-            <header>
-                <!-- <a id="logo_link" href="index.html">
-                        <img class="logo" src="image/80065e06957d494389b0587a3a908a0b.png" alt="Fianl project Logo">
-                    </a>-->
-                <nav>
-
-                    <a id="logo_link" href="index.html">
-                        <img class="logo" src="image/80065e06957d494389b0587a3a908a0b.png" alt="Fianl project Logo">
-                    </a>
-                    <a href="index.html">Home</a>
-                    <a href="site-plan.html">Site Plan</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="protfolio.html">Protfolio</a>  
-                    <div class="box-botton">
-                        <a class="register" href="register.html">REGISTER</a>
-                    </div>
-                </nav>
-        
-            </header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project | Home</title>
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <nav>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="image/80065e06957d494389b0587a3a908a0b.png" alt="Final project Logo">
+                </a>
+                <a href="index.html">Home</a>
+                <a href="site-plan.html">Site Plan</a>
+                <a href="blog.html">Blog</a>
+                <a href="portfolio.html">Portfolio</a>  
+                <div class="box-botton">
+                    <a class="register" href="register.html">REGISTER</a>
+                </div>
+            </nav>
+        </header>
+        <div id="hero">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <img src="image/pexels-life-of-pix-7640.jpg" alt="People enjoying mountains" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="image/lonely-boats-calm-lake-with-misty-mountain-background.jpg" style="width:100%">
+                <div class="text">Type information here</div>
+            </div>
+        </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
     
-            <div id="hero">
-            
-                <img id="hero-img" src="image/pexels-life-of-pix-7640.jpg" alt="People enjoying mountains" >
-            
-        
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+    </div>
+    
+    <footer>
+        <div>
+            <h1>Contact Us</h1>
+            <div class="quote">
+                <p>"The journey of a thousand miles begins with one step." - Lao Tzu</p>
             </div>
-                    <!--deleded all main tag-->
-                <footer>
-                    <div>
-                    
-                        <h1>Contact Us</h1>
-                        <div class="quote">
-                            <p>"The journey of a thousand miles begins with one step." - Lao Tzu</p>
-                        </div>
-                        <div class="social">
-                            <a href="https://facebook.com" target="_blank">
-                                <img src="image/facebook.png" alt="fb icon">
-                            </a>
-                            <a href="https://twitter.com" target="_blank">
-                                <img src="image/twitter.png" alt="twitter icon">
-                            </a> 
-                        </div>
-                        <div class="white-space">
-                            <p class="name"> Na Tang</p>
-                            <p> &copy;Copyright 2023</p>
-                            <p><a href="site-plan.html">Site Plan</a></p>
-                        </div>
-                    </div>
-                </footer>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="image/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="image/twitter.png" alt="twitter icon">
+                </a> 
             </div>
-    </body>
+            <div class="white-space">
+                <p class="name">Na Tang</p>
+                <p>&copy; 2023</p>
+                <p><a href="site-plan.html">Site Plan</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }    
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
 </html>
