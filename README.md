@@ -8,4 +8,4 @@ Jun 10: decided three pages content, blog page layout a stroy use a lot of pictu
 Jun 17: added three wiremframes.
 Jun 24: added home page, blog, and protfolio HTML.
 Jul 1: completed home page, but not added different color when user click the link icon. Also, not added move right will show a new image to user's function.
-
+Jul 6: added a slideshow in home page.
