@@ -4,71 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project| Home</title>
-    <link rel="stylesheet" href="#">
+    <title>Final Project | Home</title>
+    <link rel="stylesheet" href="styles/home.css">
 </head>
 <body>
     <div id="content">
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="image/80065e06957d494389b0587a3a908a0b.png" alt="Fianl project Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="blog.html">Blog</a>
-            <a href="protfolio.html">Protfolio</a>
-            <a href="register.html">REGISTER</a>
-        </nav>
-    </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="image/pexels-life-of-pix-7640.jpg" alt="People enjoying mountains">
-        </div>
+        <header>
+            <nav>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="image/80065e06957d494389b0587a3a908a0b.png" alt="Final project Logo">
+                </a>
+                <a href="index.html">Home</a>
+                <a href="site-plan.html">Site Plan</a>
+                <a href="blog.html">Blog</a>
+                <a href="portfolio.html">Portfolio</a>  
+                <div class="box-botton">
+                    <a class="register" href="register.html">REGISTER</a>
+                </div>
+            </nav>
+        </header>
+    <div class="register-grid">
+    <div id="register-card">
+        
+            <img class="register-img" src="image/4772.jpg" alt="People enjoying mountains">
        
     </div>
 
     <!--deleded all main tag-->
     <div id="feedback"></div>
-
+    <div class="form-card">
     <form action="/my-handling-form-page" method="post">
      <ul>
        <li>
          <label for="name">Name:</label>
          <input type="text" id="name" name="user_name" />
        </li>
+       <br>
        <li>
          <label for="mail">Email:</label>
          <input type="email" id="mail" name="user_email" />
        </li>
-       <li>
+      <!-- <li>
          <label for="msg">Message:</label>
          <textarea id="msg" name="user_message"></textarea>
-       </li>
+       </li>-->
      </ul>
+     <br>
      <li class="button">
-         <button type="submit">Send your message</button>
+        <label for="click here">Click Here: </label>
+         <button type="submit">Send me a message</button>
        </li>
-
    </form>
-    <footer>
-        <div>
-            <p>Contact Us</p>
+   </div>
+   </div>
+   <footer>
+    <div>
+        <h1>Contact Us</h1>
+        <div class="quote">
             <p>"The journey of a thousand miles begins with one step." - Lao Tzu</p>
-        
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="image/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="image/twitter.png" alt="twitter icon">
-                </a> 
-            </div>
-            <p> Na Tang</p>
-            <p> &copy;Copyright 2023</p>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="image/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="image/twitter.png" alt="twitter icon">
+            </a> 
+        </div>
+        <div class="white-space">
+            <p class="name">Na Tang</p>
+            <p>&copy; 2023</p>
             <p><a href="site-plan.html">Site Plan</a></p>
         </div>
-        </footer>
+    </div>
+</footer>
         <script>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById('feedback');

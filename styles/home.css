@@ -305,3 +305,40 @@ width:100%;
   line-height: 1.5; /* Adjust the value as needed */
 }
 
+/*------------here is registration page css styles----------*/
+#register-card{
+    display: flex;
+    justify-content: center; /* Horizontally center the form card */
+    align-items: center; /* Vertically center the form card */
+    flex-direction: column; /* Align items vertically */
+  
+  
+}
+
+.register-img {
+  margin: 0 auto;
+  width: 500px;
+  height:300px;
+}
+
+.form-card {
+  margin: 0 auto; /* Horizontally center the form card */
+  
+}
+.form-card {
+  display: flex;
+  justify-content: center; /* Horizontally center the form card */
+  align-items: center; /* Vertically center the form card */
+  flex-direction: column; /* Align items vertically */
+}
+.button {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Vertically center the button */
+}
+
+
+
+
+
+
