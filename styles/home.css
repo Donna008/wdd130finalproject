@@ -131,7 +131,7 @@ img {vertical-align: middle;}
   max-width: 100%;
   position: relative;
   overflow: hidden;
-  max-height: 550px;
+  max-height: 600px;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -311,8 +311,6 @@ width:100%;
     justify-content: center; /* Horizontally center the form card */
     align-items: center; /* Vertically center the form card */
     flex-direction: column; /* Align items vertically */
-  
-  
 }
 
 .register-img {
@@ -335,6 +333,39 @@ width:100%;
   display: flex;
   justify-content: flex-end; /* Align items to the right */
   align-items: center; /* Vertically center the button */
+}
+
+/*-----------------here is protfolio css styles--------*/
+#grid-contain{
+  display:grid;
+  grid-template-columns:50px 1fr 1fr 50px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.one-card {
+  grid-column: 2 / 3; /* Updated to span from grid column 2 to column 3 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-card{
+  grid-column: 2/3;
+  grid-row:2/3;
+}
+.three-card{
+  grid-column: 3/4;
+  grid-row:2/3;
+}
+.water1{
+  width:auto;
+  height:100px;
+}
+.water2{
+  width:auto;
+  height:100px;
+}
+.water3{
+  width:100px;
+  height:100px;
 }
 
 

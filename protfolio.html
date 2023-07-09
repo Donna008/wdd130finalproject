@@ -4,40 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project| Home</title>
-    <link rel="stylesheet" href="#">
+    <title>Final Project | Home</title>
+    <link rel="stylesheet" href="styles/home.css">
 </head>
 <body>
     <div id="content">
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="image/80065e06957d494389b0587a3a908a0b.png" alt="Fianl project Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="blog.html">Blog</a>
-            <a href="protfolio.html">Protfolio</a>
-            <a href="contact.html">REGISTER</a>
-        </nav>
-    </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="image/pexels-life-of-pix-7862.jpg" alt="People enjoying water">
+        <header>
+            <nav>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="image/80065e06957d494389b0587a3a908a0b.png" alt="Final project Logo">
+                </a>
+                <a href="index.html">Home</a>
+                <a href="site-plan.html">Site Plan</a>
+                <a href="blog.html">Blog</a>
+                <a href="portfolio.html">Portfolio</a>  
+                <div class="box-botton">
+                    <a class="register" href="register.html">REGISTER</a>
+                </div>
+            </nav>
+        </header>
+    <div id="grid-contain">
+        <div class="one-card">
+            <img class="water1" src="image/pexels-life-of-pix-7862.jpg" alt="People enjoying water">
         </div>
-    </div>
-    <section>
+    
+    <section class="second-card">
         <img class="water2" src="image/river-from-godafoss-falls-akureyri-iceland-surrounded-by-huge-rocks-concrete-bridge.jpg" alt="a picture of water">
     </section>
-    <section>
+    <section class="three-card">
         <img class="water3" src="image/lonely-boats-calm-lake-with-misty-mountain-background.jpg" alt="quit water surface">
     </section>
+</div>
     <!--deleded all main tag-->
     <footer>
         <div>
-            <p>Contact Us</p>
-            <p>"The journey of a thousand miles begins with one step." - Lao Tzu</p>
-        
+            <h1>Contact Us</h1>
+            <div class="quote">
+                <p>"The journey of a thousand miles begins with one step." - Lao Tzu</p>
+            </div>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="image/facebook.png" alt="fb icon">
@@ -46,11 +50,13 @@
                     <img src="image/twitter.png" alt="twitter icon">
                 </a> 
             </div>
-            <p> Na Tang</p>
-            <p> &copy;Copyright 2023</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
+            <div class="white-space">
+                <p class="name">Na Tang</p>
+                <p>&copy; 2023</p>
+                <p><a href="site-plan.html">Site Plan</a></p>
+            </div>
         </div>
-        </footer>
+    </footer>
 </div>
 </body>
 </html>
