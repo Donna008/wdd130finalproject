@@ -10,3 +10,4 @@ Jun 24: added home page, blog, and protfolio HTML.
 Jul 1: completed home page, but not added different color when user click the link icon. Also, not added move right will show a new image to user's function.
 Jul 6: added a slideshow in home page.
 Jul 8: added a Blog page. Also, added a registration pag!
+Jul 15: added a gallery page.
