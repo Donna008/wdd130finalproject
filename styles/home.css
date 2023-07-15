@@ -338,34 +338,84 @@ width:100%;
 /*-----------------here is protfolio css styles--------*/
 #grid-contain{
   display:grid;
-  grid-template-columns:50px 1fr 1fr 50px;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns:50px 1fr 1fr 1fr 50px;
+  
 }
 .one-card {
   grid-column: 2 / 3; /* Updated to span from grid column 2 to column 3 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 .second-card{
-  grid-column: 2/3;
-  grid-row:2/3;
+  grid-column: 3/4;
+  grid-row:1/2;
 }
 .three-card{
+  grid-column: 4/5;
+  grid-row:1/2;
+}
+.four-card {
+  grid-column: 2 / 3; /* Updated to span from grid column 2 to column 3 */
+  grid-row: 2/3;
+}
+.five-card{
   grid-column: 3/4;
   grid-row:2/3;
 }
+.six-card{
+  grid-column: 4/5;
+  grid-row:2/3;
+}
+.seven-card {
+  grid-column: 2 / 3; /* Updated to span from grid column 2 to column 3 */
+  grid-row: 3/4;
+}
+.eight-card{
+  grid-column: 3/4;
+  grid-row:3/4;
+}
+.nine-card{
+  grid-column: 4/5;
+  grid-row:3/4;
+}
+.ten-card {
+  grid-column: 2 / 3; /* Updated to span from grid column 2 to column 3 */
+  grid-row: 4/5;
+}
+.eleven-card{
+  grid-column: 3/4;
+  grid-row:4/5;
+}
+.twelve-card{
+  grid-column: 4/5;
+  grid-row:4/5;
+}
 .water1{
-  width:auto;
-  height:100px;
+  width:100%;
+  height:400px;
 }
 .water2{
-  width:auto;
-  height:100px;
+  width:100%;
+  height:400px;
 }
 .water3{
-  width:auto;
-  height:100px;
+  width:100%;
+  height:400px;
+}
+.water4{
+  width:100%;
+  height:400px;
+}
+.water5{
+  width:100%;
+  height:400px;
+}
+.water6{
+  width:100%;
+  height:400px;
+}
+.water7, .water8, .water9, .water10, .water11, .water12{
+  width:100%;
+  height:400px;
 }
 
 
