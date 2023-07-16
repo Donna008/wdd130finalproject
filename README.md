@@ -11,3 +11,4 @@ Jul 1: completed home page, but not added different color when user click the li
 Jul 6: added a slideshow in home page.
 Jul 8: added a Blog page. Also, added a registration pag!
 Jul 15: added a gallery page.
+Jul 16: create a new home page, added some text--clearfy what is the website work.
